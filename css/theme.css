@@ -129,7 +129,7 @@ body::after {
 /* ---------- хронология ---------- */
 .timeline { text-align: left; max-width: 880px; margin: 0 auto; }
 .tl-item {
-  display: flex; align-items: center; gap: 18px;
+  display: flex; align-items: flex-start; gap: 18px;
   padding: 0.3em 0;
   border-bottom: 1px dashed rgba(244, 238, 219, 0.16);
 }
@@ -138,7 +138,7 @@ body::after {
 .tl-year {
   font-family: var(--oswald); font-weight: 700;
   color: var(--red); font-size: 1.22em; letter-spacing: 0.02em;
-  flex: 0 0 172px; text-align: right;
+  flex: 0 0 172px; text-align: right; padding-top: 0.18em;
 }
 .tl-text { font-size: 0.85em; color: var(--paper); }
 
